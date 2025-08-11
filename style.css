@@ -1,0 +1,107 @@
+/* ------------------------
+   General Styles
+------------------------ */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ------------------------
+   Navigation Bar
+------------------------ */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px; /* Box Model: padding around content */
+}
+
+.navbar h1 {
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* ------------------------
+   Container Section
+------------------------ */
+.container {
+    background-color: white;
+    margin: 20px; /* Space outside the box */
+    padding: 20px; /* Space inside the box */
+    border: 2px solid #ddd; /* Border visible for Box Model demo */
+    border-radius: 5px;
+}
+
+/* ------------------------
+   Card Layout
+------------------------ */
+.cards {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 15px;
+    width: 45%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    background-color: #555;
+}
+
+/* ------------------------
+   Footer
+------------------------ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
